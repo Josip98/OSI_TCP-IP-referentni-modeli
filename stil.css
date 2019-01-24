@@ -1,0 +1,322 @@
+#nav{
+    float:left;
+    width:120px;
+    min-height:800px;
+    border: 1px solid #00E8EF;
+    
+
+}
+
+#nav ul, li, li, li {
+    margin:0px;
+    padding-left:10px;
+    font-family:Arial;
+   
+}
+
+#nav ul{
+    font-size:large;
+    padding-left:0px;
+    padding-top:0px;
+    
+}
+
+#nav li{
+    
+    list-style:none;
+    position:relative;
+    background-color: #213141;
+    border: 1px solid #00E8EF;
+    border-left:1px solid #00E8EF
+}
+
+#nav li li{
+	color:#00E8EF;
+	text-align: center;
+	padding-left: 0px;
+	width: 100px;
+    background-color: #213141;
+    border: 1px solid #00E8EF;
+    list-style:none;
+    position:relative;
+    left:97px; 
+    top:-27px;
+	margin-top:0px;
+    margin-left:-1px;
+}
+
+#nav ul ul{
+    position:absolute;
+    visibility:hidden;
+	padding-left: 10px;
+    top:26px;
+    font-size:small;
+}
+
+#nav ul li a:link, ul li a:visited{
+    display: block; 
+    width:92px; 
+    background-color:none;
+    text-decoration:none;
+    
+    color: white;
+    padding-left:8px;
+}
+
+#nav ul li a:hover{
+    color:#3b3b3b;
+    font-weight:bolder;
+    background-color:#777E89;
+    border-right:0px solid #00E8EF;
+}
+
+
+#nav ul li:hover ul{
+    visibility:visible;
+}
+
+#nav li:hover{
+     background-color:#777E89;
+}
+
+#nav ul li:hover ul li{
+	font-weight: bolder;
+}
+
+    
+#lista1{line-height:1.5;}
+#pozadina {
+    background-color:#213141;
+}
+#omotac{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+    height:auto;
+     box-shadow:#00E8EF 2px 3px 15px 0px;
+	-webkit-box-shadow: 2px 3px 15px 0px #00E8EF;
+	-moz-box-shadow:    2px 3px 15px 0px #00E8EF;
+    border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#sekcija p, h1, h2{
+    color:white;
+
+    
+}
+article{
+    font-family:Arial;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:120px;
+    
+}
+
+#slika1{margin:auto;display:block;}
+article a:hover{
+    color:black;
+}
+article ul{
+    list-style-type:circle;
+    color:white;
+/*     line-height: 1.5; */
+}
+article ol, li{
+    color:white;
+}
+#sekcija{
+    width:100%;
+    min-height:500px;
+    border: 1px solid #00E8EF;
+
+
+}
+
+    
+
+footer{
+	width: 100%;
+	height: 50px;
+	background: #00E8EF;
+	border: 1px solid #00E8EF;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+}
+
+footer p{
+	display: block;
+	margin-left: 375px;
+	margin-right: 200px;
+	padding-top: 0px;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	background-color: #213141;
+    border: 1px solid #00E8EF;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+header img{
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#horizontal{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	margin: auto;
+	background-color: #00E8EF;
+	border: 1px solid #00E8EF;
+	border-bottom: none;
+	box-shadow: #00E8EF 2px 3px 15px 0px;
+	-webkit-box-shadow: 2px 3px 15px 0px #00E8EF;
+	-moz-box-shadow:    2px 3px 15px 0px #00E8EF;
+	/*border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;*/
+}
+
+#horizontal ul{
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+	padding-left: 150px;  /*IZBORNIK poravnanje*/
+}
+
+#horizontal li{
+	float: left;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+#horizontal a:link, a:visited{
+	display: block;
+	margin: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #777e89;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid #5d6068;
+	border-radius: 10px;
+}
+
+#horizontal a:visited{
+	display: block;
+	margin: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	background-color: #454e5b;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid #5d6068;
+	border-radius: 10px;
+}
+
+#horizontal a:hover{
+	display: block;
+	margin: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #777e89;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid white;
+	border-top:2px solid white;
+}
+    
+
+#vertikal{
+    float:left;
+    width:120px;
+    min-height:500px;
+    border: 1px solid #00E8EF;
+    
+
+}
+
+#vertikal ul, li, li, li {
+    margin:0px;
+    padding-left:10px;
+    font-family:Arial;
+   
+}
+
+#vertikal ul{
+    font-size:large;
+    padding-left:0px;
+    padding-top:0px;
+    
+}
+
+#vertikal li{
+    
+    list-style:none;
+    position:relative;
+    background-color: #213141;
+    border: 1px solid #00E8EF;
+    border-left:1px solid #00E8EF
+}
+
+#vertikal li li{
+	color:#00E8EF;
+	text-align: center;
+	padding-left: 0px;
+	width: 100px;
+    background-color: #213141;
+    border: 1px solid #00E8EF;
+    list-style:none;
+    position:relative;
+    left:97px; 
+    top:-27px;
+	margin-top:0px;
+    margin-left:-1px;
+}
+
+#vertikal ul ul{
+    position:absolute;
+    visibility:hidden;
+	padding-left: 10px;
+    top:26px;
+    font-size:small;
+}
+
+#vertikal ul li a:link, ul li a:visited{
+    display: block; 
+    width:92px; 
+    background-color:none;
+    text-decoration:none;
+    
+    color: white;
+    padding-left:8px;
+}
+
+#vertikal ul li a:hover{
+    color:#3b3b3b;
+    font-weight:bolder;
+    background-color:#777E89;
+    border-right:0px solid #00E8EF;
+}
+
+
+#vertikal ul li:hover ul{
+    visibility:visible;
+}
+
+#vertikal li:hover{
+     background-color:#777E89;
+}
+
+#vertikal ul li:hover ul li{
+	font-weight: bolder;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Sesijski sloj</title>
+	<link href="stil.css" rel="stylesheet" type="text/css"/>
+</head>
+<body id="pozadina">
+	<div id="omotac">
+	<header>
+			<a href="pocetna.html"><img src="slike/logo.png" width="67px" height="67px"></a>
+		</header>
+		<nav id="horizontal">
+			<ul>
+				<li><a href="pocetna.html">Početna</a></li>
+				<li><a href="uvod.html">Uvod</a></li>
+				<li><a href="zanimljivosti.html">Zanimljivosti</a></li>
+				<li><a href="literatura.html">literatura</a></li>
+			</ul>
+		</nav>
+	<div id="sekcija">
+        
+        <nav id="vertikal">
+                <ul>
+                    <li><a href="uvod.html">Uvod</a></li>
+                    <li><a href="osi.html">OSI</a>
+                        <ul>
+                            <li><a href="osi.html">Općenito<a/></li>
+                            <li><a href="aplikacijski.html">Aplikacijski<a/></li>
+                            <li><a href="prezentacijski.html">Prezentacijski<a/></li>
+                            <li><a href="sesijski.html">Sesijski<a/></li>
+                            <li><a href="transportni.html">Transportni<a/></li>
+                            <li><a href="mrezni.html">Mrežni<a/></li>
+                            <li><a href="podakovni.html">Data Link<a/></li>
+                            <li><a href="fizicki.html">Fizički<a/></li>
+                        </ul>
+                    </li>
+                    <li><a href="tcp.html">TCP/IP</a>
+                        <ul>
+                            <li><a href="tcp.html">Općenito<a/></li>
+                            <li><a href="aplikacijskit.html">Aplikacijski<a/></li>
+                            <li><a href="transportnit.html">Transportni<a/></li>
+                            <li><a href="internett.html">Internet<a/></li>
+                            <li><a href="pristupt.html">Sloj mrežnog pristupa<a/></li>
+                        </ul>
+                    </li>
+                    <li><a href="zakljucak.html">Zaključak</a></li>
+                    <li><a href="linkovi.html">Korisni linkovi</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h1>Sesijski sloj</h1>
+                <p>Sesijski sloj omogućuje korisnicima različitih racunala uspostavljanje aktivnih komunikacijskih sesija.
+Glavni je cilj uspostaviti, održavati i sinkronizirati interakciju između komunikacijskih sustava. </p><p>Sesijski sloj upravlja i sinkronizira razmjenu podataka između dvije  aplikacije zato što je sinkronizacija potrebna da krajevi poruka nisu preuranjeni (sinkronizacija satova), ovim se izbjegava gubitak podataka.</p><p>
+Funkcije ovog sloja su:</p><p>
+<ol><li>Dijaloška kontrola: omogućuje  komunikaciju u half-duplex (samo slati/primati) ili full-duplex(moguce u isto vrijeme slati i primati podatke)</li>
+<li>Token Management: spriječava dvije strane od pokušavanja kritičnih operacija u isto vrijeme.</li>
+<li>Sinkronizacija: omogućuje procesu dodavanje kontrolnih točaka koje se smatraju sinkronizacijskim točkama u toku podataka. (tj. Gubitkom 99. stranice od 100. neće se sve iznova čitava datoteka slati.)</li></ol>
+<a href="prezentacijski.html"><p>nazad</p></a></p>
+<a href="transportni.html"><p>dalje</p></a></p></p>
+            </article>
+    </div>
+	
+	<footer>
+		<p>Rijeka 01.2019.</p>
+    </footer>
+</body>
